@@ -8,7 +8,7 @@
 ### *When the user enters his username and password in the application, this error is sent to the user that the username and password are wrong!!*
 ### *This problem is because the user entered a password: for example 123, but the same password does not exist in the database, there is a hash of this password in the database.*
 
-## *To solve this problem, in the data access layer, we extract all the passwords of the database and put them in a list, then in the logic layer, we loop the passwords we put in a list and do Verification .*
+## *To solve this problem, in the Data Access layer, we extract all the passwords stored in the database and put them in a list, then in the Business Logic layer, we process the passwords that are in a list and loop over them.*
 
 #### The verify method receives two parameters, the first parameter is the password that the user enters, and the second parameter is the hashes that we have stored in the database. Then we put it inside a condition, it returns true if it matches, false otherwise.
 

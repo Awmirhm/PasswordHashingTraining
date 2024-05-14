@@ -5,7 +5,8 @@
 
 ## But our work does not end at this stage, and the main problem is at the stage of entering the user into the application.
 
-### *Because when the user enters his username and password in the application, this error is sent to the user that the username and password are wrong, and this problem is because the user entered the password: for example, 123 but The same password does not exist , In the database and hash this password.*
+### *When the user enters his username and password in the application, this error is sent to the user that the username and password are wrong!!*
+### *This problem is because the user entered a password: for example 123, but the same password does not exist in the database, there is a hash of this password in the database.*
 
 ## *To solve this problem, in the data access layer, we extract all the passwords of the database and put them in a list, then in the logic layer, we loop the passwords we put in a list and do Verification .*
 

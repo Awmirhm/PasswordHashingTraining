@@ -1,7 +1,7 @@
 # *This project is a simple educational project in which I used `three-layer architecture (MVC)`.*
 ### *In this project, I taught you how to hash a password and store it in the database and still be able to log in to the application.*
 
-## We use the `passlib library` and the `pbkdf2_sha256 class` to do this
+## We use the `passlib` library and the `pbkdf2_sha256` class to do this
 
 #### *In the first step, we create the user registration section in the application. In this section, the user must enter the first name, last name, username and password. We store the entered information in the database.*
 
